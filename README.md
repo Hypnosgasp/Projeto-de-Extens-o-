@@ -1,32 +1,63 @@
-📄 Descrição Geral do Código – Sistema de Avaliação
-Este código implementa um sistema de avaliação escolar simples, com as seguintes funcionalidades principais:
+# 📚 Projeto de Extensão — Sistema de Avaliação Escolar
 
-🧠 Objetivo do sistema
-Calcular a média de um aluno com base em suas notas e determinar sua situação acadêmica (aprovado, reprovado ou em recuperação), de forma interativa.
+## 📌 Sobre o Projeto
 
-🔍 Funcionamento detalhado
-Entrada de dados do aluno:
+Este projeto foi desenvolvido em **Python** com o objetivo de simular um sistema simples de avaliação escolar.
+O programa recebe as notas de um aluno, calcula a média final e determina sua situação acadêmica com base em critérios predefinidos.
+Projeto desenvolvido para fins acadêmicos e prática de lógica de programação.
 
-O sistema solicita ao usuário:
-Nome do aluno
-Disciplina
-Três notas (em ponto flutuante)
+---
 
-Cálculo da média:
-As três notas são somadas e divididas por 3 para obter a média final.
+## 🛠 Tecnologias Utilizadas
 
-Classificação da média:
-O código usa estruturas condicionais para classificar a média:
-Média ≥ 7,0: Aprovado
-Média ≥ 5,0 e < 7,0: Recuperação
-Média < 5,0: Reprovado
+- 🐍 Python 3
+- 📊 Estruturas condicionais (if/else)
+- 🔢 Operações matemáticas
+- 🧠 Lógica de programação
 
-Saída de dados:
-Exibe o nome do aluno, a disciplina, as notas individuais, a média calculada e a situação do aluno.
+---
 
-✅ Pontos positivos
-Simples e fácil de usar
-Interativo
-Usa lógica condicional clara
-Utiliza boas práticas básicas como conversão de tipo (float) e uso de variáveis nomeadas
+## 🚀 Funcionalidades
 
+- Recebe as notas do aluno
+- Calcula a média automaticamente
+- Determina a situação final:
+  - ✅ Aprovado
+  - ⚠️ Recuperação
+  - ❌ Reprovado
+- Exibe o resultado de forma clara no terminal
+
+---
+
+## ▶️ Como Executar
+
+### 1️⃣ Clone o repositório:
+
+```bash
+git clone https://github.com/Hypnosgasp/Projeto-de-Extensao.git
+```
+
+### 2️⃣ Acesse a pasta
+```bash
+cd Projeto-de-Extensao
+```
+
+### 3️⃣ Execute o programa
+```bash
+python nome_do_arquivo.py
+```
+(Substitua pelo nome real do seu arquivo Python.)
+
+## 📚 Objetivo de Aprendizado
+- Este projeto foi criado para:
+- Praticar lógica de programação
+- Trabalhar com entrada e saída de dados
+- Utilizar estruturas condicionais
+- Organizar código em projetos reais
+- Desenvolver documentação para portfólio
+
+## 🔮 Melhorias Futuras
+- Adicionar tratamento de erros (validação de notas inválidas)
+- Permitir cadastro de múltiplos alunos
+- Criar versão com interface gráfica
+- Armazenar dados em arquivo ou banco de dados
